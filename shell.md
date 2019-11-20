@@ -20,6 +20,15 @@ ZSH_THEME="agnoster"
 
 Then, in terminal app (e.g. iTerm2), select font *Meslo LG S DZ Regular for Powerline* (you may have to experiment).
 
+For the agnoster theme, to change directory colours, edit file `~/.oh-my-zsh/themes/agnoster.zsh-theme` and change the colour name in the `prompt_segment` line:
+
+```
+# Dir: current working directory
+prompt_dir() {
+  prompt_segment cyan $CURRENT_FG '%~'
+}
+```
+
 See:
 
 * https://github.com/robbyrussell/oh-my-zsh
