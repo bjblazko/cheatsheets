@@ -9,3 +9,5 @@
 ```bash
 git stash
 ```
+
+See https://git-scm.com/docs/git-stash
