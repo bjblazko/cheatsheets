@@ -1,3 +1,10 @@
+# Configure user
+
+```bash
+git config --global user.name "John Doe"
+git config --global user.email "john@example.com"
+```
+
 # Checkout/clone
 
 ```bash
