@@ -11,3 +11,18 @@ git stash
 ```
 
 See https://git-scm.com/docs/git-stash
+
+# Show difference between local and remote (not including workspace)
+
+Replace `master` by your according branch name, if required.
+
+```bash
+git fetch origin
+git diff master origin/master
+```
+
+# Revision graph/tree
+
+```bash
+git log --all --decorate --oneline --graph
+```
