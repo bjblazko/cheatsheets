@@ -33,3 +33,11 @@ git diff master origin/master
 ```bash
 git log --all --decorate --oneline --graph
 ```
+
+# Switch branch 
+
+```bash
+git fetch
+git branch -a # list all branches available
+git checkout [branch-name]
+```
