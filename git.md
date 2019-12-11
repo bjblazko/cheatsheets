@@ -41,3 +41,9 @@ git fetch
 git branch -a # list all branches available
 git checkout [branch-name]
 ```
+
+# list tags
+
+```bash
+git tag
+```
