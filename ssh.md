@@ -36,6 +36,17 @@ Handling multiple identities is covered throughout this document.
 ssh-copy-id -i ~/.ssh/example.org.pub example.org
 ```
 
+## Passphrase cache
+
+Since we *never* have keys without passphrase, we use `ssh-add` to provide your private key to the
+SSH agent. This offers two advantages:
+
+* you need *not* to enter your key passphrase each time you issue ssh command
+* you get autocompletion for remote shell
+
+```shell
+ssh-add ~/.ssh/privatekey
+```
 
 ## Multiple SSH identities
 
