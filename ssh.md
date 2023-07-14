@@ -68,7 +68,7 @@ and `~/.ssh/example.com.pub` (public key).
 ### Define default identities per target host
 
 For regular use, better use a default configuration by specifying the `IdentityFile`
-option:
+option in your `~/.ssh/config` file (create if it does not exist):
 
 ```shell
 Host github github.com
